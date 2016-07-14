@@ -38,8 +38,20 @@ $(function() {
     
     $('#accordion').accordion({ collapsible: true, heightStyle: "content" });
     
+    // DATEPICKER
+    //https://jqueryui.com/datepicker
     
+    $('.date').datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            showButtonPanel: true,
+            changeMonth: false,
+            changeYear: false,
+            numberOfMonths: 2,
+            minDate: -1
+        });
     
+});
     
     
     
