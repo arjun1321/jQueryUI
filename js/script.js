@@ -33,6 +33,36 @@ $(function() {
     $('#sortableToo').sortable({ connectWith: "sortable", placeholder: "placeholderBox" });
     
     
+    // ACCORDION
+    // https://jqueryui.com/accordion/
+    
+    $('#accordion').accordion({ collapsible: true, heightStyle: "content" });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 });
