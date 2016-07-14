@@ -15,9 +15,10 @@ body {
     
     /* fixed height container with overflow for scrollbar */
     
-    height: 400px;
+    height: 800px;
     overflow: auto;
 }
+
 
 .box {
     height: 120px;
@@ -26,7 +27,8 @@ body {
     color: white;
     line-height: 120px;
     text-align: center;
-    float: left;
+    cursor: pointer;
+    display: inline-block;
     margin: 1px;
 }
 
@@ -42,3 +44,12 @@ body {
 #box3 {
     background-color: deeppink
 }
+
+.bigBox {
+    width: 400px;
+    height: 400px;
+    color: white;
+    background: #000;
+    text-align: center;
+}
+
