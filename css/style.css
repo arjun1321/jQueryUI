@@ -45,11 +45,63 @@ body {
     background-color: deeppink
 }
 
-.bigBox {
+#droppable {
+    background: #222;
+    border: solid 2px #000;
+    height: 300px;
     width: 400px;
-    height: 400px;
-    color: white;
-    background: #000;
+    line-height: 300px;
     text-align: center;
+    color: white;
+    margin: 40px auto;
 }
+
+ul {
+    width: 48%;
+    float: left;
+    margin: 0;
+    padding: 0 1%;
+    list-style: none;
+}
+
+ul li {
+    background: #eee;
+    padding: 10px;
+    margin: 2px 0;
+    border: solid 1px #ccc;
+}
+
+ul li:hover {
+    background: #ddd;
+    border-color: #aaa;
+    cursor: pointer;
+}
+
+ul li:active {
+    transform: rotate(2deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
